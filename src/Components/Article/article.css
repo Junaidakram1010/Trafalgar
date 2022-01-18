@@ -1,0 +1,139 @@
+.article {
+  margin-top: 223px;
+  position: relative;
+  background: url("../../img/Vector2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 19%;
+  margin-bottom: 200px;
+}
+.article::before {
+  content: "";
+  background-image: url("../../img/element5.png");
+  background-position: 10%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 154px;
+  height: 131px;
+  position: absolute;
+  left: 9%;
+  top: 10%;
+}
+.article img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.article h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  text-align: center;
+}
+.article hr {
+  width: 56px;
+  height: 3px;
+  opacity: 100%;
+  margin: 0 auto;
+  background: #000000;
+  border-radius: 5px;
+  margin-top: 24px;
+  margin-bottom: 74px;
+}
+.article .card {
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: left;
+  border: none;
+  margin-bottom: 72px;
+  height: 575px;
+}
+.article .card .card-body {
+  padding: 33px;
+  margin-bottom: 35px;
+}
+.article .card img {
+  padding: 0px;
+}
+.article h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 12px;
+  margin-top: 21px;
+  width: 78%;
+}
+.article p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-bottom: 25px;
+  width: 79%;
+}
+.article .article-btn {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ed;
+  mix-blend-mode: normal;
+  text-align: left;
+  text-decoration: none;
+  padding: 0px;
+}
+.article .article-btn img {
+  padding-left: 8px;
+}
+.article .article-btn-link {
+  text-align: center;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 12px 50px 12px 50px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1500px) {
+  .article h3 {
+    width: 100%;
+  }
+  .article p {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .article h2 {
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 50px;
+  }
+  .article h3 {
+    width: 100%;
+  }
+  .article p {
+    width: 100%;
+  }
+  .article .card {
+    height: auto;
+  }
+}
